@@ -5,7 +5,7 @@ class Person {
   final String email;
   final String group;
   final String location;
-  final bool favorite;
+  late bool favorite;
 
   Person({
     this.name = "",

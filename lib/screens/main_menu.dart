@@ -87,7 +87,6 @@ class _MainMenuState extends State<MainMenu> {
                     fit: BoxFit.cover)),
           ),
           Container(
-            padding: const EdgeInsets.all(16.0),
             color: Colors.transparent,
             child: screens[currentIndex],
           ),

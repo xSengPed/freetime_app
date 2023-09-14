@@ -10,6 +10,6 @@ class GroupScreen extends StatefulWidget {
 class _GroupScreenState extends State<GroupScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Column();
   }
 }
